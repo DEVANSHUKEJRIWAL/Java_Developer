@@ -43,7 +43,7 @@ Topics below will be added progressively based on roadmap phases:
 ## 🗂️ Phase-Wise Notes
 
 ### 🧱 Phase 1 – Java Basics
-- [Java Syntax & Structure](notes/Java-Syntax-and-Main.md)
+- [Java Syntax & Structure](01-Java-Basics/notes/Java-Syntax-and-Main.md)
 - [Variables, Data Types, Operators](notes/Variables-DataTypes-Operators.md)
 - [Conditionals](notes/Conditional-Statements.md)
 - [Loops, Functions, Arrays](notes/Loops-Functions-Arrays.md)
