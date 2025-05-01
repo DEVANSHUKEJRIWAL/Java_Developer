@@ -4,13 +4,14 @@ Welcome to the first phase of the Java Developer Roadmap!
 This section focuses on mastering the fundamentals of Java programming and developing your logical thinking.
 
 ##  Topics Covered
-- Syntax, Variables, Constants
-- Data Types (`int`, `float`, `boolean`, `String`, `char`)
-- Operators (Arithmetic, Relational, Logical)
-- Conditional Statements (`if-else`, `switch`)
-- Loops (`for`, `while`, `do-while`)
-- Functions (definition, parameters, return types)
-- Arrays (1D & 2D), Strings
+- [Java-Syntax-and-Main.md](notes/Java-Syntax-and-Main.md) 
+- [Variables-DataTypes-Operators.md](notes/Variables-DataTypes-Operators.md) 
+- [Conditional-Statements.md](notes/Conditional-Statements.md) 
+- [Loops-Functions-Arrays.md](notes/Loops-Functions-Arrays.md) 
+- [String-Handling.md](notes/String-Handling.md) 
+
+✅Start Over:- [Java-Syntax-and-Main.md](notes/Java-Syntax-and-Main.md)
+
 
 ##  Tools to Set Up
 - **IDE:** IntelliJ IDEA / Eclipse / VS Code
