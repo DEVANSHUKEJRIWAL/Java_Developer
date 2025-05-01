@@ -69,9 +69,9 @@ Topics below will be added progressively based on roadmap phases:
 ### ☁️ Phase 4 – System Design + Microservices
 - [Monolith-vs-Microservices](04-System-Design-MicroServices/notes/Monolith-vs-Microservices.md)
 - [Spring-Cloud-Basics](04-System-Design-MicroServices/notes/Spring-Cloud-Basics.md)
-- [API Gateway & Eureka Discovery](notes/API-Gateway-and-Service-Discovery.md)
+- [API-Gateway-and-Service-Discovery](04-System-Design-MicroServices/notes/API-Gateway-and-Service-Discovery.md)
 - [Redis-RabbitMQ-Intro](04-System-Design-MicroServices/notes/Redis-RabbitMQ-Intro.md)
-- [Logging & Monitoring (Log4j, Prometheus, Grafana)](notes/Logging-and-Monitoring.md)
+- [Logging-and-Monitoring](04-System-Design-MicroServices/notes/Logging-and-Monitoring.md)
 - [Docker-and-Kubernetes](04-System-Design-MicroServices/notes/Docker-and-Kubernetes.md)
 
 ---
