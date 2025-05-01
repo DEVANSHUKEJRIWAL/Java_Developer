@@ -104,4 +104,4 @@ try (Connection conn = DriverManager.getConnection(...);
      // use stmt
 }
 ```
-Link to Next-> Servlets-and-JSP.md
+✅  Next: [Servlets & JSP (optional)](Servlets-and-JSP.md)

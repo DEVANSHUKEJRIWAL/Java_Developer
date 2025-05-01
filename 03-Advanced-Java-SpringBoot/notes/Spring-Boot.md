@@ -113,3 +113,5 @@ implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
 | PUT     | Update existing     |  @PutMapping      |
 | DELETE  | Remove resource     |  @DeleteMapping   |
 ```
+
+✅  Next: [JPA + Hibernate (ORM)](JPA-and-Hibernate.md)

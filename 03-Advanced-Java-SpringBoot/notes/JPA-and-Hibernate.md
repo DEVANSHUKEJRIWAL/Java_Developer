@@ -125,4 +125,4 @@ public class BookController {
 | Use  @Transactional  for multi-step operations | Ensure operations are wrapped in a single transaction |
 | Always check for  Optional  in repositories    | Prevent  NullPointerException                         |
 ```
-
+✅  Next:  [Testing & Debugging (JUnit, Mockito)](Testing-and-Debugging.md)

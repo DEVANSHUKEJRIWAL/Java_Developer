@@ -115,5 +115,5 @@ public User getUserDetails() {
 | Centralized Config| Spring Cloud Config   | Single source of truth for config        |
 | Fault Tolerance   | Resilience4j          | Retry, fallback, circuit breaking        |
 ```
-✅ Next: [API Gateway & Service Discovery](notes/API-Gateway-and-Service-Discovery.md)
+✅ Next: [API Gateway & Service Discovery](API-Gateway-and-Service-Discovery.md)
 

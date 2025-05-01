@@ -12,6 +12,8 @@ This phase focuses on building real-world Java backend applications using Spring
 - [Testing & Debugging (JUnit, Mockito)](notes/Testing-and-Debugging.md)
 - [Tools (Maven, Postman, Docker)](notes/Tools.md)
 
+✅ Start Over:- [JDBC + SQL](notes/JDBC-and-SQL.md)
+
 ## 🧠 Projects to Build
 
 | Project                  | Description                                  |

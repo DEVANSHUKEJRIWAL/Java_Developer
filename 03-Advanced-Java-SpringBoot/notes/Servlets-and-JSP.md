@@ -80,3 +80,5 @@ JSP (JavaServer Pages) allows you to mix HTML and Java code to generate dynamic 
 | `doPost()`   | Handles POST requests                         |
 | JSP          | Mixes Java with HTML (now considered legacy)  |
 ```
+
+✅  Next: [Spring Framework (IoC & DI)](Spring-Framework.md)

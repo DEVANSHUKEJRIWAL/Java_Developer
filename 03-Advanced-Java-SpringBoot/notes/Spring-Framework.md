@@ -95,3 +95,5 @@ private MyService service;
 | Constructor Injection | Most recommended DI method                       |
 
 ```
+
+✅  Next: [Spring Boot (REST APIs)](Spring-Boot.md)

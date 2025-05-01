@@ -11,7 +11,6 @@ This section focuses on mastering the fundamentals of Java programming and devel
 - Loops (`for`, `while`, `do-while`)
 - Functions (definition, parameters, return types)
 - Arrays (1D & 2D), Strings
-- Pattern Problems
 
 ##  Tools to Set Up
 - **IDE:** IntelliJ IDEA / Eclipse / VS Code

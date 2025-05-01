@@ -62,3 +62,6 @@ in.close();
 -	Class versioning matters (use serialVersionUID).
 
 - File handling is essential in logging, data persistence, and simple database emulation.
+###
+
+✅ Next: [Java 8+ Features (Streams, Lambdas, Functional Interfaces)](Java-8-Features.md)

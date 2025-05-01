@@ -143,3 +143,4 @@ interface Printer {
 | Encapsulation    | Data hiding via private + accessors   | Validate setters, protect internal state         |
 | Abstraction      | Focus on what, not how                | Interface updates can break many classes         |
 ```
+✅ Next: [Java Collections Framework](Java-Collections.md)
