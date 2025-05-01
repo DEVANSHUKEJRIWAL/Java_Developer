@@ -43,36 +43,36 @@ Topics below will be added progressively based on roadmap phases:
 ## 🗂️ Phase-Wise Notes
 
 ### 🧱 Phase 1 – Java Basics
-- [Java Syntax & Structure](01-Java-Basics/notes/Java-Syntax-and-Main.md)
-- [Variables, Data Types, Operators](notes/Variables-DataTypes-Operators.md)
-- [Conditionals](notes/Conditional-Statements.md)
-- [Loops, Functions, Arrays](notes/Loops-Functions-Arrays.md)
-- [Strings](notes/String-Handling.md)
+- [Java Syntax & Main method](01-Java-Basics/notes/Java%20Syntax%20%26%20Main%20method.md)
+- [Variables, Data Types, Operators](01-Java-Basics/notes/Variable%2C%20datatypes%20%26%20operators.md)
+- [Conditional Statements](01-Java-Basics/notes/Conditional%20Statements.md)
+- [Loops,Functions & Arrays](01-Java-Basics/notes/Loops%2CFunctions%20%26%20Arrays.md)
+- [String Handling](01-Java-Basics/notes/String%20Handling.md)
 
 ### 💡 Phase 2 – Core Java + OOP
-- [OOP Concepts](notes/OOP-Concepts.md)
-- [Java Collections](notes/Java-Collections.md)
-- [Exception Handling](notes/Exception-Handling.md)
-- [Multithreading](notes/Multithreading.md)
-- [File Handling](notes/File-Handling.md)
-- [Java 8+ Features](notes/Java-8-Features.md)
+- [OOP-Concepts](02-Core-Java-OOP/notes/OOP-Concepts.md)
+- [Java-Collections](02-Core-Java-OOP/notes/Java-Collections.md)
+- [Exception-Handling](02-Core-Java-OOP/notes/Exception-Handling.md)
+- [Multithreading](02-Core-Java-OOP/notes/Multithreading.md)
+- [File-Handling](02-Core-Java-OOP/notes/File-Handling.md)
+- [Java8_Features](02-Core-Java-OOP/notes/Java8_Features.md)
 
 ### 🔧 Phase 3 – Advanced Java + Spring Boot
-- [JDBC + SQL](notes/JDBC-and-SQL.md)
-- [Servlets & JSP (Optional)](notes/Servlets-and-JSP.md)
-- [Spring Framework (IoC & DI)](notes/Spring-Framework.md)
-- [Spring Boot & REST APIs](notes/Spring-Boot.md)
-- [JPA + Hibernate ORM](notes/JPA-and-Hibernate.md)
-- [Testing & Debugging](notes/Testing-and-Debugging.md)
-- [Tools (Maven, Postman, Docker)](notes/Tools.md)
+- [JDBC-and-SQL](03-Advanced-Java-SpringBoot/notes/JDBC-and-SQL.md)
+- [Servlets-and-JSP](03-Advanced-Java-SpringBoot/notes/Servlets-and-JSP.md)
+- [Spring-Framework](03-Advanced-Java-SpringBoot/notes/Spring-Framework.md)
+- [Spring-Boot](03-Advanced-Java-SpringBoot/notes/Spring-Boot.md)
+- [JPA-and-Hibernate](03-Advanced-Java-SpringBoot/notes/JPA-and-Hibernate.md)
+- [Testing-and-Debugging](03-Advanced-Java-SpringBoot/notes/Testing-and-Debugging.md)
+- [Tools](03-Advanced-Java-SpringBoot/notes/Tools.md)
 
 ### ☁️ Phase 4 – System Design + Microservices
-- [Monolithic vs Microservices](notes/Monolith-vs-Microservices.md)
-- [Spring Cloud Basics](notes/Spring-Cloud-Basics.md)
+- [Monolith-vs-Microservices](04-System-Design-MicroServices/notes/Monolith-vs-Microservices.md)
+- [Spring-Cloud-Basics](04-System-Design-MicroServices/notes/Spring-Cloud-Basics.md)
 - [API Gateway & Eureka Discovery](notes/API-Gateway-and-Service-Discovery.md)
-- [Redis & RabbitMQ (Optional)](notes/Redis-RabbitMQ-Intro.md)
+- [Redis-RabbitMQ-Intro](04-System-Design-MicroServices/notes/Redis-RabbitMQ-Intro.md)
 - [Logging & Monitoring (Log4j, Prometheus, Grafana)](notes/Logging-and-Monitoring.md)
-- [Docker & Kubernetes](notes/Docker-and-Kubernetes.md)
+- [Docker-and-Kubernetes](04-System-Design-MicroServices/notes/Docker-and-Kubernetes.md)
 
 ---
 
