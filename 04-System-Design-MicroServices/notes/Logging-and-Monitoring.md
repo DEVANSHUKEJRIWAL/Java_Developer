@@ -139,4 +139,4 @@ scrape_configs:
 | Avoid excessive logging         | Reduces log size, improves performance       |
 | Use centralized log system      | Combine logs across all microservices        |
 ```
-
+✅ Next: [Docker & Kubernetes](notes/Docker-and-Kubernetes.md)

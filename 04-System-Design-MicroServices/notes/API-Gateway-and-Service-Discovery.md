@@ -146,3 +146,4 @@ spring:
 | Load Balancing      | Works out-of-the-box with Eureka             |
 | Easier Monitoring   | Gateway can track all API requests           |
 ```
+✅ Next: [Redis & RabbitMQ (Optional)](notes/Redis-RabbitMQ-Intro.md)

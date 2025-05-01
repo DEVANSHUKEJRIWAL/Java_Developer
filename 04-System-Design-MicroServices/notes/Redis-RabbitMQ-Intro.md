@@ -130,3 +130,5 @@ docker run -p 5672:5672 -p 15672:15672 rabbitmq:management
 | Learning advanced microservices | ✅ Great to explore         |
 ```
 
+✅ Next:  [Logging & Monitoring](notes/Logging-and-Monitoring.md)
+
