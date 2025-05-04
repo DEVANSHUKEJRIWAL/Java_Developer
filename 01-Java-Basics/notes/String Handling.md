@@ -19,6 +19,11 @@ String s2 = new String("Hello");       // Using constructor
 | String Literal   | Stored in String Pool    | Efficient           |
 | new String()     | Stored in Heap memory    | Avoid if possible   |
 ```
+
+🔹 What is the String Pool?
+-	The String Pool (also called intern pool) is a special memory area inside the heap where Java stores string literals.
+-   It is used to optimize memory by reusing immutable string objects.
+ 
 ## 🧠 2. Why Are Strings Immutable?
 -	 **Security:** Used in class loading, networking, etc.
 -	 **Thread Safety:** No risk of accidental change.
@@ -104,6 +109,7 @@ StringBuffer buffer = new StringBuffer("Java");
 buffer.append(" Developer");
 System.out.println(buffer); // Java Developer
 ```
+*Note*:- We will cover about **thread-safety** in the upcoming phase.
 
 ### 🔄 8. String vs StringBuilder vs StringBuffer
 ```text
