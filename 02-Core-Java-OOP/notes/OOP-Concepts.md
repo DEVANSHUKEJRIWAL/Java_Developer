@@ -46,7 +46,81 @@ class Dog extends Animal {
 -	Private members are not inherited—you need to use protected or getters/setters.
 -	Diamond problem is not applicable in Java (due to no multiple inheritance with classes), but can occur with interfaces.
 
+🔹 Accessing Parent Members via super()
+-	super() is used to call the constructor or methods of the parent class.
+```java
+class Animal {
+    Animal() {
+        System.out.println("Animal created");
+    }
+}
+
+class Dog extends Animal {
+    Dog() {
+        super();  // Calls Animal constructor
+        System.out.println("Dog created");
+    }
+}
+```
+🔹 Private Members: Use Getters/Setters
+```java
+class Animal {
+    private String name = "Dog";
+
+    public String getName() {
+        return name;
+    }
+}
+
+class Dog extends Animal {
+    void printName() {
+        System.out.println(getName()); // Use getter to access private field
+    }
+}
+```
+
+🔹 Protected Members: Accessible in Subclass
+```java
+class Animal {
+    protected int age = 5;
+}
+
+class Dog extends Animal {
+    void showAge() {
+        System.out.println("Age is: " + age);  // Directly accessible
+    }
+}
+```
+
+🔹 💠 Diamond Problem in Java (with Interfaces)
+
+Java doesn’t allow multiple class inheritance to avoid ambiguity (the Diamond Problem), but it can occur with interfaces if not handled properly.
+```java
+interface A {
+    default void greet() {
+        System.out.println("Hello from A");
+    }
+}
+
+interface B {
+    default void greet() {
+        System.out.println("Hello from B");
+    }
+}
+
+class C implements A, B {
+    public void greet() {
+        A.super.greet(); // Must specify which greet() to use
+    }
+}
+```
+- Java forces you to override and resolve ambiguity manually when implementing multiple interfaces with the same default method.
+
 ## 3. Polymorphism
+
+Polymorphism means “many forms” — it allows one interface or method to behave differently based on the object that implements or invokes it.
+
+In Java, polymorphism is of two main types:
 
 ### Overloading (compile-time polymorphism)
 ```java
@@ -78,7 +152,7 @@ class B extends A {
 }
 ```
 ## 4. Encapsulation
- ###hat it is:
+What it is:
 
 Encapsulation hides internal data using private access and exposes it using public methods.
 ```java
@@ -104,10 +178,16 @@ public List<String> getItems() {
 ```
 ## 5. Abstraction
 
+Abstraction is the concept of hiding implementation details and showing only the essential features to the user.
+
 ### Using Abstract Classes
+-	Cannot be instantiated.
+-	Can have constructors, fields, and both abstract and concrete methods.
+-	Good when classes share common functionality but also need to define their own specific behavior.
+  
 ```java
 abstract class Shape {
-    abstract void draw();
+    abstract void draw(); //abstract method
 }
 
 class Circle extends Shape {
@@ -115,6 +195,21 @@ class Circle extends Shape {
 }
 ```
 ### Using Interfaces
+-	Pure abstraction (until Java 8).
+-	Cannot have constructors or instance fields.
+-	All methods are abstract by default (until Java 8+ allowed default/static methods).
+-	A class can implement multiple interfaces, unlike abstract classes.
+
+```text
+| Feature                       | Interface                         | Abstract Class                  |
+|-------------------------------|-----------------------------------|---------------------------------|
+| Can have constructors         | ❌ No                             | ✅ Yes                          |
+| Supports multiple inheritance | ✅ Yes                            | ❌ No                           |
+| Fields                        | `public static final` only        | Instance fields allowed         |
+| Methods                       | Abstract, `default`, `static`     | Abstract and concrete methods   |
+| Inheritance                   | `implements` (can be many)        | `extends` (only one)            |
+
+```
 ```java
 interface Drawable {
     void draw();
@@ -128,9 +223,34 @@ class Square implements Drawable {
 -	Abstract classes can have constructors, interfaces cannot.
 -	A class can implement multiple interfaces but can extend only one class.
 -	If you add a new method to an interface in production, all implementing classes will break unless you use default methods (Java 8+).
+
+💥  ***Real-world Edge Case: Method Added in Production***
+
+Let’s say your interface is used in 20 different classes:
 ```java
 interface Printer {
-    default void printInfo() { System.out.println("Default print"); }
+    void print();
+}
+```
+✅ All working fine…
+
+Then, you add a new method:
+```java
+interface Printer {
+    void print();
+    void scan(); // ⚠️ This breaks all implementing classes!
+}
+```
+Now every implementing class must implement scan() or the code won’t compile — a breaking change in production.
+
+Solution: Use default Methods (Java 8+)
+```java
+interface Printer {
+    void print();
+
+    default void scan() {
+        System.out.println("Default scan implementation");
+    }
 }
 ```
 ### Summary Table (with Gotchas)
